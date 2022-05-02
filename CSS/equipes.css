@@ -1,0 +1,135 @@
+body{
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 98vw;
+    background-image: url('qatar.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.menu{
+    width: 97%;
+   background-image: linear-gradient(to 
+   bottom, rgb(255, 255, 255), rgb(225, 192, 192)); 
+   height: 50px;
+   display: inline-block;
+   border: 3px solid white;
+   border-radius: 20px;
+    
+}
+
+    main{
+        margin: 0 auto;
+        width: 1000px;
+        
+        position: center;
+    }
+
+    
+ .logo{
+     padding: 3px;
+     position: right;
+     
+ }   
+
+ .header-2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom: 1px solid rgb(10, 5, 4);
+    border-radius: 20px;
+    
+ }
+
+ 
+
+ .principal ul li {
+     display: inline-block;
+     color: red;
+     margin-right: 70px;
+     margin-left: 30px;
+ }
+
+ 
+
+ .principal ul li a {
+    color: rgb(205, 12, 12);
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    
+}
+
+div.quadrado {
+    display: inline-block;
+    border: 1px solid rgb(4, 3, 3);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 290px;
+   
+   
+    
+}
+
+div#q1{
+  background-image: url('Grupoa.png');
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div#q2{
+  background-image: url('GrupoB.png');
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div#q3{
+  background-image: url('GrupoC.png');
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div#q4{
+  
+  background-image: url('GrupoD.png');
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+div#q5{
+    background-image: url('Grupoe.png');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  div#q6{
+    background-image: url('Grupof.png');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  div#q7{
+    background-image: url('GrupoG.png');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  div#q8{
+    background-image: url('GrupoH.png');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  

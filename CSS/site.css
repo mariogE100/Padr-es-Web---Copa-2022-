@@ -1,0 +1,152 @@
+body{
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 98vw;
+    background-image: url('qatar.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+.menu{
+    width: 97vw;
+   background-image: linear-gradient(to 
+   bottom,  rgb(255, 255, 255), rgb(225, 192, 192)); 
+   height: 50px;
+   display: inline-block;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 20px;
+    
+}
+
+    main{
+        margin: 0 auto;
+        width: 1000px;
+        
+        position: center;
+    }
+
+    
+ .logo{
+     padding: 3px;
+     position: right;
+     
+ }   
+
+ .header-2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom: 1px solid rgb(10, 5, 4);
+    border-radius: 300px;
+    
+ }
+
+ 
+
+ .principal ul li {
+     display: inline-block;
+     color: rgb(234, 25, 25);
+     margin-right: 70px;
+     margin-left: 30px;
+ }
+
+ 
+
+ .principal ul li a {
+    color: rgb(205, 12, 12);
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.content{
+    height: 520px;
+    width: 930px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+  
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+  
+.bar:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1{
+  margin-left: 0;  
+}
+
+#slide2:checked ~ .s1{
+   margin-left: -20%; 
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
+
+.marca{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    background-image: -webkit-linear-gradient(#96193010 10%, #96193099 10%, #96193087);
+    color: white;
+    position: absolute;
+    top: 105%;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+}

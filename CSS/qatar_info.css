@@ -1,0 +1,75 @@
+body{
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, #50010b, #7e004b, #490143);
+}
+
+.menu{
+    width: 97%;
+   background-image: linear-gradient(to 
+   bottom, rgb(255, 255, 255), rgb(225, 192, 192)); 
+   height: 50px;
+   display: inline-block;
+   border: 3px solid white;
+   border-radius: 150px;
+    
+}
+
+    main{
+        margin: 0 auto;
+        width: 1000px;
+        
+        position: center;
+    }
+
+    
+ .logo{
+     padding: 3px;
+     position: right;
+     
+ }   
+
+ .header-2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-bottom: 1px solid rgb(10, 5, 4);
+    border-radius: 300px;
+    
+ }
+
+ 
+
+ .principal ul li {
+     display: inline-block;
+     color: red;
+     margin-left: 132px;
+ }
+
+ 
+
+ .principal ul li a {
+    color: rgb(205, 12, 12);
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.informações{
+    width: 70%;
+    margin: 0 auto;
+    background-image: url('gramado.jpg');
+    border-radius: 15px;
+    border-bottom: 2px solid black;
+    
+}
+
+.footer {
+    background-color: rgb(123, 18, 46);
+    color: white;
+    position: absolute;
+    top: 105%;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+}
